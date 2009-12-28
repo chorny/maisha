@@ -31,6 +31,9 @@ recommends:
 build_requires:
   Test::More:               0.47
 
+resources:
+  repository: http://github.com/barbie/maisha
+
 provides:
   App::Maisha:
     file: lib/App/Maisha.pm
